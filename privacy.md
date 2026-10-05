@@ -1,8 +1,7 @@
 ---
-title: Privacy
+title: Privacy policy
 permalink: /privacy/
 ---
-# Privacy policy — Leave it to buff
 
 _Last updated: 5 October 2026_
 

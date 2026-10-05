@@ -2,7 +2,6 @@
 title: Support
 permalink: /support/
 ---
-# Support — Leave it to buff
 
 Questions, bugs or ideas: subs@3sand.gallery
 
