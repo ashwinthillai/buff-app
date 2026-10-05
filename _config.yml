@@ -1,0 +1,8 @@
+title: Leave it to buff
+description: A notebook you type into, like a terminal. buff remembers everything.
+theme: minima
+header_pages:
+  - privacy.md
+  - support.md
+exclude:
+  - README.md
