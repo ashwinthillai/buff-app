@@ -4,5 +4,6 @@ theme: minima
 header_pages:
   - privacy.md
   - support.md
+  - docs/index.md
 exclude:
   - README.md

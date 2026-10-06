@@ -14,4 +14,4 @@ Free for iPhone and iPad. Coming soon to the App Store.
 <img src="assets/03-project.png" alt="Everything about one project, by date" width="30%">
 </p>
 
-[Privacy policy](privacy.md) · [Support](support.md)
+[buff docs](docs/index.md) · [Privacy policy](privacy.md) · [Support](support.md)
