@@ -8,6 +8,8 @@ Your notes stay plain markdown files in your own iCloud Drive. No account, no an
 
 Free for iPhone and iPad. Coming soon to the App Store.
 
+<p><a class="button" href="{{ '/docs/' | relative_url }}">Read buff docs →</a> <a class="button secondary" href="{{ '/support/' | relative_url }}">Get support</a></p>
+
 <p>
 <img src="assets/01-buff.png" alt="buff being sketched in pencil" width="30%">
 <img src="assets/02-ask.png" alt="Asking buff what's waiting" width="30%">

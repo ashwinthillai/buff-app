@@ -1,4 +1,5 @@
 title: Leave it to buff
+baseurl: /buff-app
 description: A notebook you type into, like a terminal. buff remembers everything.
 theme: minima
 header_pages:
@@ -7,3 +8,7 @@ header_pages:
   - docs/index.md
 exclude:
   - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - tools

@@ -5,7 +5,7 @@ permalink: /support/
 
 Questions, bugs or ideas: subs@3sand.gallery
 
-**New:** [buff docs](docs/index.md) explains every feature in detail, with a [full command reference](docs/commands.md).
+<p><a class="button" href="{{ '/docs/' | relative_url }}">Browse buff docs →</a> <a class="button secondary" href="{{ '/docs/commands/' | relative_url }}">All commands</a></p>
 
 ## Getting started
 - Type anything and press Send. It's saved under today.

@@ -1,0 +1,30 @@
+---
+---
+@import "minima";
+
+// buff docs: knowledge-base tables and a call-to-action button.
+table { width: 100%; border-collapse: collapse; margin-bottom: 1.5em; font-size: 0.95em; display: block; overflow-x: auto; }
+table th { background: #E9E9EB; text-align: left; font-weight: 600; }
+table th, table td { padding: 0.55em 0.8em; border: 1px solid #d5d5da; vertical-align: top; }
+table tr:nth-child(even) td { background: #f7f7f8; }
+table td code { white-space: nowrap; }
+.button {
+  display: inline-block; padding: 0.6em 1.3em; margin: 0.3em 0.6em 0.3em 0;
+  background: #2F5D8A; color: #fff !important; border-radius: 10px;
+  font-weight: 600; text-decoration: none !important;
+}
+.button:hover { background: #244a6e; }
+.button.secondary { background: #E9E9EB; color: #1C1C1E !important; }
+
+// Phones: each table row becomes a small card (feature, then description, then the command).
+@media (max-width: 600px) {
+  table { display: block; border: 0; }
+  table thead { display: none; }
+  table tbody, table tr, table td { display: block; width: auto; }
+  table tr { border: 1px solid #d5d5da; border-radius: 10px; margin-bottom: 0.8em; padding: 0.5em 0.8em; background: #fff; }
+  table tr:nth-child(even) td { background: none; }
+  table td { border: 0; padding: 0.15em 0; }
+  table td:first-child { font-weight: 600; }
+  table td:empty { display: none; }
+  table td code { white-space: normal; }
+}
