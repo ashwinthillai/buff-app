@@ -8,10 +8,11 @@ permalink: /docs/options/
 Tap **⋯** to the left of the box (or press ⌘, on a keyboard). Settings are stored on your device.
 
 ## Appearance
-- **Theme:** Grey (the default), Beige or Salmon. Themes stay the same in dark mode.
-- **Font:** SF Mono, a typewriter-style font, or Carlito, a softer font similar to Calibri. Times and lined-up columns stay in typewriter style either way.
+- **Light or dark:** System (follows your iPhone), Light or Dark.
+- **Theme:** Grey (the default), Beige or Salmon, each with its own dark version.
+- **Font:** SF Pro (the default, the iPhone's own font), SF Mono, a typewriter-style font, or Carlito, a softer font similar to Calibri. Times and lined-up columns stay in typewriter style either way.
 - **Text size:** 14 to 30 points.
-- **Line spacing.**
+- **Line spacing:** Compact fits more on screen, Normal, or Airy for easier reading. The sample text shows the difference as you switch.
 - On iPad, the text sits in a comfortable reading column in the middle of the screen.
 
 ## Reading comfort

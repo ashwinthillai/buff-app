@@ -15,7 +15,7 @@ Don't remember the command? Start with `@buff` and say what you want:
 ```
 
 ## What happens
-buff turns your request into one of its commands and shows it, for example `→ /todos waiting`. That way you learn the commands as you go.
+Your request appears straight away; if it takes a moment, *buff is thinking…* shows until the answer. buff turns your request into one of its commands and shows it, for example `→ /todos waiting`. That way you learn the commands as you go.
 
 - **Looking things up** runs straight away.
 - **Changing something** (saving a note, closing a todo) puts the command in the box first. Check it and press **Send** to confirm. Right after, `undo` appears as tappable text if you change your mind.
@@ -26,7 +26,8 @@ buff turns your request into one of its commands and shows it, for example `→ 
 ## What it needs
 - Plain-language requests use **Apple's on-device model**, so they work offline and your words stay on your device. This needs a device with Apple Intelligence turned on.
 - The model is used when **AI commands** is on in **Options → AI**.
-- Without the model (AI off, or a device without Apple Intelligence), buff matches your words against example requests and offers the closest commands to tap. Simpler, but it handles common requests.
+- Simple look-ups (a day, the week, your todos, a project) are often recognised instantly by matching your words against example requests, without the model. This also works with AI off, and nothing is sent anywhere.
+- Without the model (AI off, or a device without Apple Intelligence), anything buff can't match offers the closest commands to tap. Simpler, but it handles common requests.
 - A few requests lead to commands that use Claude (like `/prep`). If you haven't added a Claude key, buff tells you so.
 
 ## Questions about your notes

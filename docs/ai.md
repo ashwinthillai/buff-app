@@ -31,6 +31,8 @@ The on-device model only picks and copies; anything that writes new text from yo
 ```
 buff finds the relevant notes and answers from them only, citing each source like `[logs/2026-01-15.md:12]`. Tap a citation to open that day. If your notes don't contain the answer, it says so.
 
+buff keeps a search index of your notes in memory (rebuilt from the files, never stored), so it sends only the entries that match your question, not whole days. Answers start sooner, and notes added or edited on another device are picked up.
+
 - Choose the AI per question: `--local` (on-device) or `--cloud` (Claude).
 - Limit the time: `--week`, `--month`, or `--since 2026-09-01 --until 2026-09-30`.
 - **Keep a good answer:** `/save` right after, or `/ask --save …`, stores it under `digest/answers/`. Saved answers become part of your notes.
