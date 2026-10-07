@@ -13,7 +13,7 @@ Free for iPhone and iPad. Coming soon to the App Store.
 <p><a class="button" href="{{ '/docs/' | relative_url }}">Read buff docs →</a> <a class="button secondary" href="{{ '/support/' | relative_url }}">Get support</a></p>
 
 <p>
-<img src="assets/01-capture.png" alt="A note saved and filed under a person and a project" width="30%">
+<img src="assets/01-capture.png" alt="A note saved in plain words, with its person and project on a quiet line below" width="30%">
 <img src="assets/02-ask.png" alt="Asking buff what's waiting, in the beige theme" width="30%">
 <img src="assets/03-cal.png" alt="The month as a calendar, days with notes marked, in dark mode" width="30%">
 </p>

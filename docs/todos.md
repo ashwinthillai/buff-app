@@ -34,6 +34,9 @@ Add "by" and a day: `Do: send the cost breakdown by fri`. buff understands `toda
 - `/todos #project-atlas` or `/todos @bob-smith` for one project or person.
 - `/due` shows what's overdue and what's due in the next seven days.
 
+## Tag a todo
+Todos read as plain words, with their people and projects after a "·". To file one under a person or project later, type `/tag todo 2` and tap a name, or `/tag #project-atlas todo 2` directly. It then appears under that project in `/todos`.
+
 ## Close a todo
 - `/done 2` closes number 2 from the last list. Tapping a todo puts `/done 2` in the box for you.
 - `/done cost breakdown` closes the todo containing those words.

@@ -12,7 +12,7 @@ Everything buff can do, grouped by what you're trying to do. Tap a feature for i
 | [Save a note](getting-started.md#save-a-note) | Type anything and press Send; it's filed under today | *just type* |
 | [Another day](getting-started.md#save-under-another-day) | File a note under a past day | `/on yesterday …` |
 | [Fix a mistake](getting-started.md#fix-a-mistake) | Change or remove today's last note | `/edit` · `/undo` |
-| [Add tags later](getting-started.md#fix-a-mistake) | Tag a note you've already saved | `/tag @jane-doe` |
+| [Add tags later](tags.md#tag-a-note-later) | Tag any note you've already saved, from a short list | **+ tag** |
 | [Tag a run of notes](tags.md#tag-a-run-of-notes) | Add one tag to every note until you stop | `/use #project-atlas` |
 
 ## Capture from other apps
@@ -21,6 +21,8 @@ Everything buff can do, grouped by what you're trying to do. Tap a feature for i
 |---|---|---|
 | [Share sheet](capture-anywhere.md#share-sheet) | Send text or links from any app | Share → buff |
 | [Siri](capture-anywhere.md#siri) | Save a note by voice, without opening buff | "Add to buff" |
+| [Type in buff](capture-anywhere.md#type-in-buff) | Open buff with the keyboard ready | "Type in buff" |
+| [iPad keyboard shortcut](capture-anywhere.md#a-keyboard-shortcut-on-ipad) | Save a note from any app with one key combination | ⌥⌘B *(your choice)* |
 | [Shortcuts, Back Tap, Action button](capture-anywhere.md#shortcuts) | One-tap or dictated capture | *Add to buff* action |
 | [Documents](capture-anywhere.md#documents) | Turn a PDF, Word or text file into a searchable note | `/ingest` |
 
@@ -29,6 +31,7 @@ Everything buff can do, grouped by what you're trying to do. Tap a feature for i
 | Feature | What it does | Try it |
 |---|---|---|
 | [Tags](tags.md#the-three-kinds-of-tag) | Link a note to a person, project or topic | `@jane-doe` `#project-atlas` |
+| [Plain notes](tags.md#how-tagged-notes-read) | Notes read as plain words; names on a line below | *Options → Tags under notes* |
 | [Aliases](tags.md#names-buff-learns) | Teach buff other names for someone | `/alias @jane-doe Jane` |
 | [You](tags.md#names-buff-learns) | Tell buff your own name | `/self Your Name` |
 | [Everything about one](tags.md#see-everything-about-one) | All notes about a person or project | `/show #project-atlas` |

@@ -17,6 +17,27 @@ Tags tie a note to the people, projects and subjects it's about. Later you can s
 
 A note can have any number of tags, anywhere in the text. buff fixes a few near misses itself: `#projects-atlas` becomes `#project-atlas`, and a bare `#atlas` becomes `#project-atlas` if that's the only project it could mean.
 
+## How tagged notes read
+On screen, notes read as plain words. Tags at the end of a note move to a small, quiet line underneath:
+
+```
+coffee about the launch @maya-chen #project-orion
+```
+reads as **coffee about the launch**, with **Maya Chen · Orion · + tag** below it. Tap a name to see everything about that person or project.
+
+A tag inside a sentence reads as the name: `met @jane-doe about the budget` reads **met Jane Doe about the budget**.
+
+Only the screen changes. Your [notes files](vault.md) keep every tag exactly as you typed it. To see tags inline instead, turn off **Options → Reading comfort → Tags under notes**.
+
+## Tag a note later
+Tap **+ tag** under any note, from today or any earlier day. buff lists:
+- **suggested:** names it found in the note that you haven't tagged yet (say "call Maya" when it knows `@maya-chen`);
+- then your **people** and **projects**.
+
+One tap tags the note. Nothing is ever tagged without that tap. For someone new, tap **someone or something new?** and type the tag.
+
+You can also type it: `/tag @jane-doe` tags today's last note, `/tag #project-atlas 09:30` the note saved at 09:30, and `/tag Jane 2026-10-05 14:10` a note on another day (a name buff knows works without the `@`).
+
 ## Notes on hold
 If a tag doesn't follow the pattern (say `@Jane` or `#project_atlas`), buff still saves the note exactly as written but doesn't file it under anyone. It tells you, with a suggested fix. `/lint` lists every note on hold.
 

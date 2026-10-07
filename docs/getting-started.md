@@ -30,11 +30,11 @@ Forgot to note something yesterday?
 ## Fix a mistake
 - `/edit` puts today's last note back in the box. Change it and press Send to save the new version.
 - `/undo` removes the last note this device saved today. It asks you to confirm first.
-- `/tag @jane-doe` adds a tag to today's last note; `/tag #project-atlas 09:30` adds it to the note saved at 09:30.
+- Tap **+ tag** under a note to tag it later, from a short list of names. See [Tag a note later](tags.md#tag-a-note-later).
 
 ## Commands
 Anything starting with `/` is a command. You don't need to memorise them:
-- `/help` lists them in groups; tap one to put it in the box.
+- `/help` lists them in groups; tap one to put it in the box. Its last line links to these docs.
 - `/help week` explains one command with examples; `/help all` shows everything.
 - While you type `/`, `@` or `#`, a line of suggestions appears above the box, with a hint like *person* or *project*. Typing the start of a name you've used before (`Ale`) suggests its tag (`@alex-demo`). Tap a suggestion to complete it (on a hardware keyboard, press Tab).
 - A typo gets a suggestion: `/wek isn't a command. Did you mean /week?`
@@ -44,7 +44,7 @@ Anything starting with `/` is a command. You don't need to memorise them:
 Output is plain text, but parts of it work like links: tags, dates, file citations and numbered todos. Tapping one runs the matching command, for example tapping `#project-atlas` shows that project.
 
 ## Meet buff
-buff sits just above the box. It blinks now and then, squints happily when you save a note, raises an eyebrow when it isn't sure what you mean, looks sleepy when there's nothing to show, and waves when you take the tour. While AI is working, dots rise beside it and *buff is thinking…* appears. With Reduce Motion on, buff stays still and only its face changes.
+buff sits just above the box. It blinks now and then, squints happily when you save a note, raises an eyebrow when it isn't sure what you mean, looks sleepy when there's nothing to show, and waves when you take the tour. Tap buff to start a question: `@buff ` appears in the box. While AI is working, dots rise beside it and *buff is thinking…* appears. With Reduce Motion on, buff stays still and only its face changes.
 
 ## The tour
 `/tour` adds a few demo notes and walks you through seven steps: saving, todos, what's waiting, tagging a name, asking in plain words and looking at a project. At the naming step, send the note, then tap *tag Alex* (or just press Send) to tag it. `/tour stop` ends it early; `/tour clean` removes the demo notes again.
@@ -56,6 +56,7 @@ buff sits just above the box. It blinks now and then, squints happily when you s
 | Return | Send (can be turned off in Options) |
 | Shift-Return | New line |
 | ↑ / ↓ | Previous / next command you typed |
+| *(any key)* | Typing always goes to the box, without tapping it first |
 | Tab | Accept the suggestion |
 | ⌘K | Clear the screen |
 | ⌘, | Open Options |

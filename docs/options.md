@@ -5,19 +5,20 @@ permalink: /docs/options/
 
 [buff docs](index.md) › Options
 
-Tap **⋯** to the left of the box (or press ⌘, on a keyboard). Settings are stored on your device.
+Tap **⋯** to the left of the box (or press ⌘, on a keyboard). Settings are stored on your device. The defaults below apply to new installs; changing a setting keeps your choice.
 
 ## Appearance
 - **Light or dark:** System (follows your iPhone), Light or Dark.
 - **Theme:** Grey (the default), Beige or Salmon, each with its own dark version.
-- **Font:** SF Pro (the default, the iPhone's own font), SF Mono, a typewriter-style font, or Carlito, a softer font similar to Calibri. Times and lined-up columns stay in typewriter style either way.
+- **Font:** Carlito (the default), a soft font similar to Calibri, SF Pro (the iPhone's own font), or SF Mono, a typewriter-style font. Times and lined-up columns stay in typewriter style either way.
 - **Text size:** 14 to 30 points.
-- **Line spacing:** Compact fits more on screen, Normal, or Airy for easier reading. The sample text shows the difference as you switch.
+- **Line spacing:** Compact fits more on screen, Normal, or Airy (the default) for easier reading. The sample text shows the difference as you switch.
 - On iPad, the text sits in a comfortable reading column in the middle of the screen.
 
 ## Reading comfort
-- **Use system text size** follows Settings → Display & Brightness → Text Size instead of buff's own size.
+- **Use system text size** (on by default) follows Settings → Display & Brightness → Text Size instead of buff's own size.
 - **Focus fade** shows older output in a quieter colour so the latest command stands out.
+- **Tags under notes** (on by default): notes and todos read as plain words, with their people and projects on a quiet line below. See [How tagged notes read](tags.md#how-tagged-notes-read).
 
 ## Input
 - **Command completion:** the line of suggestions while you type `/`, `@` or `#`.

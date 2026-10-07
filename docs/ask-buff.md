@@ -5,7 +5,7 @@ permalink: /docs/ask-buff/
 
 [buff docs](index.md) › Ask buff in plain words
 
-Don't remember the command? Start with `@buff` and say what you want:
+Don't remember the command? Start with `@buff` and say what you want, or tap buff's face above the box to start one:
 
 ```
 @buff what's waiting for me

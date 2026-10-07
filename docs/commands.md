@@ -15,7 +15,8 @@ Every command, grouped as in `/help`. In the app, `/help <command>` shows detail
 | `/on <date> <text>` | Save a note under another day |
 | `/edit` | Load today's last note into the box; Send saves the change |
 | `/undo` | Remove the last note this device saved today (asks first) |
-| `/tag <@person or #tag> [HH:MM]` | Add tags to today's last note, or the one at that time |
+| `/tag <tags> [date] [HH:MM]` | Add tags to a note (today's last by default). Without tags it shows a list to tap |
+| `/tag <tags> todo <n>` | Add a person or project to todo *n* from the last `/todos` |
 | `/use <tag>` · `/use off` | Add a tag to every note until `/use off` (today only) |
 | `/ingest [#tags]` | Add a document (PDF, text, Word…) to `sources/` |
 
