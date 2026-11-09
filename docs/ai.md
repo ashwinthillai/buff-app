@@ -5,13 +5,15 @@ permalink: /docs/ai/
 
 [buff docs](index.md) › AI features
 
-buff works fully without AI. The AI features are extras you switch on, and they only run when you ask for them.
+buff works fully without AI: todos, the plain brief, meetings, search and every list are worked out by rules on your device. AI adds suggestions and writing on top. It suggests; it never changes a note until you tap.
 
-## Turn it on
+## Turn it on or off
 Open **Options → AI**:
-- **AI commands** switches the AI features on or off. It's off until you turn it on.
-- **Claude API key:** some features use Claude, Anthropic's AI. They need your own key from [console.anthropic.com](https://console.anthropic.com); Anthropic bills you directly for what you use. The key is stored in your device's Keychain. **Remove key** deletes it.
-- **Default for /ask** picks on-device or Claude for questions.
+- **AI** is on by default on a new install when your device has Apple Intelligence, because the on-device model is free and private. Without Apple Intelligence it's off, and Options says what's needed.
+- **Advanced** holds the rest:
+  - **Claude API key:** some features use Claude, Anthropic's AI. They need your own key from [console.anthropic.com](https://console.anthropic.com); Anthropic bills you directly for what you use. The key is stored in your device's Keychain. **Remove key** deletes it.
+  - **Provider and model** for Claude, and **Default for /ask** (on-device or Claude).
+  - **Auto-clean new entries** (Claude, off by default).
 
 Then type `/ai` to see the status, or `/ai test` (`/ai test --cloud` for Claude) to check it works.
 
@@ -20,10 +22,16 @@ Then type `/ai` to see the status, or `/ai test` (`/ai test --cloud` for Claude)
 | Feature | Uses |
 |---|---|
 | `@buff` plain-language requests | Apple's on-device model |
+| Suggestions after Send | Apple's on-device model |
+| Plain brief on a page | No AI (rules) |
+| **Write it up** on a page | Claude |
 | `/ask` | On-device or Claude, your choice |
 | `/prep`, `/clean`, `/enhance`, `/lint --ai` | Claude |
 
 The on-device model only picks and copies; anything that writes new text from your notes uses Claude.
+
+## Suggestions after Send
+When you save a note, the on-device model may offer up to three suggestions under the Saved line, such as `+ Maya Chen · + #project-atlas · + todo: send the deck`. They only use names you already have and words from the note itself. Tap one to apply it (with **undo**); ignore them and nothing changes. Off when AI is off or Apple Intelligence isn't available.
 
 ## Ask your notes
 ```
@@ -38,10 +46,13 @@ buff keeps a search index of your notes in memory (rebuilt from the files, never
 - **Keep a good answer:** `/save` right after, or `/ask --save …`, stores it under `digest/answers/`. Saved answers become part of your notes.
 
 ## Living briefs: /prep
+Every page on People & projects starts with a **plain brief** worked out without AI: days since your last note, what they owe you, what you owe them, open decisions and the last few notes (see [Today and pages](today.md#pages-and-briefs)). `/prep @someone` without a key prints the same plain brief.
+
+With a Claude key, **Write it up** on a page (or the command below) writes a fuller brief:
 ```
 /prep #project-atlas
 ```
-A brief about one person, project or topic, written from everything your notes say about them. It's saved under `digest/people/`, `digest/projects/` or `digest/knowledge/`.
+A written brief about one person, project or topic, written from everything your notes say about them. It's saved under `digest/people/`, `digest/projects/` or `digest/knowledge/`.
 
 - The next time you run it, buff only reads notes that are new since the last brief, so it's quick and cheap. With nothing new, it shows the saved brief straight away.
 - `--meeting` adds an agenda for your next meeting with them.
@@ -66,11 +77,11 @@ Rewrites one note: `summarise`, `structure`, `expand`, `translate <language>`, o
 ## What gets sent where
 - **On-device features** never leave your device.
 - **Claude features** send the notes needed for that request directly from your device to Anthropic, under [Anthropic's terms](https://www.anthropic.com/legal). Nothing goes through the developer. See the [privacy policy](../privacy.md).
-- Nothing is sent unless you run a command (or turn on auto-clean).
+- Nothing is sent to Claude unless you run a command, tap **Write it up**, or turn on auto-clean.
 
 ## Sensitive people
 `/restrict @jane-doe` marks someone as sensitive:
-- Before anything is sent to an AI, lines about them are replaced with a neutral placeholder.
+- They're left out of every AI request, on-device or Claude: before anything is sent, lines about them are replaced with a neutral placeholder.
 - To include them for one request, add `--include-restricted`; buff asks you to type `yes` first.
 - `/clean` keeps only neutral, factual lines about them in the tidied copy. Anything else stays in your original notes only.
 

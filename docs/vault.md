@@ -18,6 +18,7 @@ buff has no database and no account. Your notes are ordinary markdown text files
 |---|---|
 | `logs/_original/2026-10-05.md` | Your notes for one day, **exactly as you wrote them**. These are the originals. |
 | `logs/2026-10-05.md` | A clean, tagged copy of the same day, built from the original. |
+| `logs/_history/2026-10-05.md` | The earlier text of notes from that day that you edited or deleted, so every change can be undone. Only ever added to. |
 | `todos.md` | All your todos in one list. |
 | `_index.md` | The people, projects and topics buff knows, their aliases, and a map of which days mention them. |
 | `inbox.md` | Notes from the share sheet or Shortcuts waiting to be filed. |
@@ -28,7 +29,7 @@ buff has no database and no account. Your notes are ordinary markdown text files
 
 ## The originals are the source of truth
 Everything except the originals (and your own edits to `todos.md` and `_index.md`) is rebuilt from them. That means:
-- To change a note by hand, edit it in `logs/_original/`. Edits to the clean copies in `logs/` are overwritten.
+- To change a note, touch and hold it in buff → **Edit** (this keeps the history and undo). By hand, edit it in `logs/_original/`. Edits to the clean copies in `logs/` are overwritten.
 - `/distill` rebuilds today's clean copy and the index. `/distill all` rebuilds everything from the originals. Run it if something looks out of date after editing files elsewhere.
 
 ## Syncing between devices
@@ -40,7 +41,7 @@ buff uses iCloud Drive, so notes appear on your iPhone, iPad and Mac without any
 ## Using your notes elsewhere
 - Open the folder in any markdown app: a text editor, Obsidian, iA Writer and so on.
 - You can add notes from a Mac by adding them to today's file in `logs/_original/`; buff picks them up.
-- `/export` makes a zip of the whole folder and opens the share sheet, so you can AirDrop, email or save it.
+- `/export` makes a zip of the whole folder (without the history files; `/export --all` includes them) and opens the share sheet, so you can AirDrop, email or save it.
 - `/export md` makes a single markdown file with all your notes in date order, easy to paste into another app or an AI chat.
 
 ## Deleting everything

@@ -3,7 +3,20 @@ title: buff docs
 permalink: /docs/
 ---
 
-Everything buff can do, grouped by what you're trying to do. Tap a feature for its full guide. New to buff? Type `/tour` in the app for a one-minute walkthrough.
+Everything buff can do, grouped by what you're trying to do. Tap a feature for its full guide. New to buff? Type `/tour` in the app for a quick tour.
+
+## New in 2.0
+buff now has three screens: **Today** tells you what's waiting, **People & projects** gets you up to speed before a meeting, and **Notes** is where you write. Write in plain words and buff finds the todos. See your next meeting, tick and snooze todos, add a widget, and edit or delete any note with undo.
+
+## Today, pages and meetings
+
+| Feature | What it does | Try it |
+|---|---|---|
+| [Today](today.md#today) | What's overdue, due today and waiting, at a glance | **Today** tab |
+| [Your next meeting](today.md#your-next-meeting) | The next meeting with someone you've noted, with a brief | *Show your meetings here* |
+| [Pages and briefs](today.md#pages-and-briefs) | Everything about one person or project, with a plain brief | Tap a name |
+| [Meeting reminders](today.md#your-next-meeting) | A notification 10 minutes before | *Options → Calendar* |
+| [Command menu](getting-started.md#keyboard-shortcuts-ipad-or-hardware-keyboard) | Every common command, searchable | ⌘K |
 
 ## Write things down
 
@@ -11,6 +24,8 @@ Everything buff can do, grouped by what you're trying to do. Tap a feature for i
 |---|---|---|
 | [Save a note](getting-started.md#save-a-note) | Type anything and press Send; it's filed under today | *just type* |
 | [Another day](getting-started.md#save-under-another-day) | File a note under a past day | `/on yesterday …` |
+| [Plain words](getting-started.md#save-a-note) | Todos, people and projects found as you write, with a preview | `send Maya the slides by Fri` |
+| [Edit or delete any note](getting-started.md#fix-a-mistake) | Any day, with undo and a history file | Touch and hold a note |
 | [Fix a mistake](getting-started.md#fix-a-mistake) | Change or remove today's last note | `/edit` · `/undo` |
 | [Add tags later](tags.md#tag-a-note-later) | Tag any note you've already saved, from a short list | **+ tag** |
 | [Tag a run of notes](tags.md#tag-a-run-of-notes) | Add one tag to every note until you stop | `/use #project-atlas` |
@@ -51,7 +66,10 @@ Everything buff can do, grouped by what you're trying to do. Tap a feature for i
 
 | Feature | What it does | Try it |
 |---|---|---|
-| [Make a todo](todos.md#make-a-todo) | A line starting with Do: becomes a todo | `Do: book the venue` |
+| [Make a todo](todos.md#make-a-todo) | Write it in plain words, or start with Do: | `book the venue by fri` |
+| [All todos](todos.md#see-your-todos) | Sorted by when; tick, swipe to snooze or date | *Today → All todos* |
+| [Widgets](todos.md#widgets-and-the-morning-list) | Today's todos on the Home and Lock Screen | *Add Widget → buff* |
+| [Morning list](todos.md#widgets-and-the-morning-list) | One notification with what's due | *Options → Todos* |
 | [Due dates](todos.md#give-it-a-due-date) | Add "by" and a day | `… by fri` |
 | [Give it to someone](todos.md#give-it-to-someone-else) | A todo you're waiting on | `→ @bob-smith: …` |
 | [See todos](todos.md#see-your-todos) | Open, yours, waiting or overdue | `/todos` · `/due` |
@@ -66,13 +84,14 @@ Everything buff can do, grouped by what you're trying to do. Tap a feature for i
 | [Health check](reports.md#health-check) | Notes on hold, duplicates, stale items | `/lint` |
 | [Your usage](reports.md#your-own-usage) | How often you use each command | `/usage` |
 
-## Ask and AI (optional)
+## Ask and AI (optional, on by default with Apple Intelligence)
 
 | Feature | What it does | Try it | Needs |
 |---|---|---|---|
 | [Plain words](ask-buff.md) | buff picks the command for you | `@buff what's waiting for me` | On-device AI |
+| [Suggestions](ai.md#suggestions-after-send) | Up to three tags or todos offered after Send | *tap one* | On-device AI |
 | [Ask your notes](ai.md#ask-your-notes) | An answer with tappable sources | `/ask what did we decide?` | On-device or Claude |
-| [Living briefs](ai.md#living-briefs-prep) | A summary of a person or project that stays current | `/prep #project-atlas` | Claude key |
+| [Living briefs](ai.md#living-briefs-prep) | A written brief that stays current | **Write it up** · `/prep` | Claude key |
 | [Tidy wording](ai.md#tidy-wording-clean) | Clean up hurried notes; originals untouched | `/clean today --dry` | Claude key |
 | [Rewrite a note](ai.md#rewrite-one-note-enhance) | Summarise, structure, translate | `/enhance last summarise` | Claude key |
 | [Privacy](ai.md#what-gets-sent-where) | What gets sent where |  |  |
@@ -91,4 +110,4 @@ Everything buff can do, grouped by what you're trying to do. Tap a feature for i
 ## Every command
 The [command reference](commands.md) lists every command on one page.
 
-Can't find what you need? Email subs@3sand.gallery or see [Support](../support.md).
+Can't find what you need? Email contact@ashwint.com or see [Support](../support.md).

@@ -5,7 +5,7 @@ permalink: /docs/options/
 
 [buff docs](index.md) › Options
 
-Tap **⋯** to the left of the box (or press ⌘, on a keyboard). Settings are stored on your device. The defaults below apply to new installs; changing a setting keeps your choice.
+Tap **⋯** to the left of the box on Notes, the **Options** row in the iPad sidebar, or press ⌘, on a keyboard. Settings are stored on your device. The defaults below apply to new installs; changing a setting keeps your choice.
 
 ## Appearance
 - **Light or dark:** System (follows your iPhone), Light or Dark.
@@ -18,6 +18,7 @@ Tap **⋯** to the left of the box (or press ⌘, on a keyboard). Settings are s
 ## Reading comfort
 - **Use system text size** (on by default) follows Settings → Display & Brightness → Text Size instead of buff's own size.
 - **Focus fade** shows older output in a quieter colour so the latest command stands out.
+- **Show source:** shows notes as plain markdown instead of styled text (bold, links, checkboxes).
 - **Tags under notes** (on by default): notes and todos read as plain words, with their people and projects on a quiet line below. See [How tagged notes read](tags.md#how-tagged-notes-read).
 
 ## Input
@@ -30,11 +31,19 @@ Tap **⋯** to the left of the box (or press ⌘, on a keyboard). Settings are s
 ## Capture from anywhere
 Short how-tos for the share sheet, Siri, Back Tap and the Action button. See [Capture from anywhere](capture-anywhere.md).
 
+## Calendar
+- **Calendar access:** shows whether buff may read your calendar, and how to turn it on in Settings if you said no. See [Your next meeting](today.md#your-next-meeting).
+- **Remind me before meetings:** a notification 10 minutes before a meeting with someone you have notes about. Tap it to open their page.
+
+## Todos
+- **Morning list** (off by default): one notification each morning, at 08:00 or a time you choose, with how many todos are due. Tap it to open Today.
+
+## Start on Today
+- **Start on Today each morning** (on by default): the first time you open buff each day, it opens on Today.
+
 ## AI
-- **AI commands:** on or off (off until you turn it on).
-- **Default for /ask:** on-device or Claude.
-- **Claude API key:** add or remove your key.
-- **Auto-clean new entries (Claude):** tidies each note's wording in the background after you save it.
+- **AI:** on or off. On by default on a new install where Apple Intelligence is available; Options says what's needed if it isn't.
+- **Advanced:** Claude API key, provider and model, default for `/ask`, and **Auto-clean new entries (Claude)**, which tidies each note's wording in the background after you save it.
 
 See [AI features](ai.md).
 

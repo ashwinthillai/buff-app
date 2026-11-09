@@ -15,6 +15,7 @@ Every command, grouped as in `/help`. In the app, `/help <command>` shows detail
 | `/on <date> <text>` | Save a note under another day |
 | `/edit` | Load today's last note into the box; Send saves the change |
 | `/undo` | Remove the last note this device saved today (asks first) |
+| `/history [date]` | Recent edits and deletes (all days or one), each with **restore** |
 | `/tag <tags> [date] [HH:MM]` | Add tags to a note (today's last by default). Without tags it shows a list to tap |
 | `/tag <tags> todo <n>` | Add a person or project to todo *n* from the last `/todos` |
 | `/use <tag>` · `/use off` | Add a tag to every note until `/use off` (today only) |
@@ -91,5 +92,6 @@ These need AI turned on in Options → AI. See [AI features](ai.md).
 | `/export [md]` | The whole folder as a zip, or one markdown file, via the share sheet |
 | `/usage` | How often you've used each command |
 | `/clear` | Clear the screen (nothing is deleted) |
-| `/tour [clean, stop]` | One-minute walkthrough; `clean` removes its demo notes |
-| `/help [command or all]` | List commands, or explain one |
+| `/tour` | Cards about the three screens |
+| `/tour steps [clean, stop]` | The step-by-step walkthrough on Notes; `clean` removes its demo notes |
+| `/help [command or all]` | The main commands, every command (`all`), or one explained |
