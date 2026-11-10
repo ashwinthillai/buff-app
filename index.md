@@ -12,9 +12,9 @@ title: Leave it to buff
 
 Tick and snooze todos, keep them on your Home Screen with a widget, and edit or delete any note with undo. Your notes stay plain markdown files in your own iCloud Drive. No account, no analytics, no ads.
 
-Free for iPhone and iPad (iOS 18 or later). **New in 2.0:** three screens, meetings, a real todo list, widgets and editing any note. [What's new →]({{ '/docs/' | relative_url }}#new-in-20)
+**[Download on the App Store](https://apps.apple.com/app/leave-it-to-buff/id6819407778)**, free for iPhone and iPad (iOS 18 or later). **New in 2.0:** three screens, meetings, a real todo list, widgets and editing any note. [What's new →]({{ '/docs/' | relative_url }}#new-in-20)
 
-<p><a class="button" href="{{ '/docs/' | relative_url }}">Read buff docs →</a> <a class="button secondary" href="{{ '/support/' | relative_url }}">Get support</a></p>
+<p><a class="button" href="https://apps.apple.com/app/leave-it-to-buff/id6819407778">Download on the App Store</a> <a class="button secondary" href="{{ '/docs/' | relative_url }}">Read buff docs →</a> <a class="button secondary" href="{{ '/support/' | relative_url }}">Get support</a></p>
 
 <p>
 <img src="assets/01-today.png" alt="Today: what's due, what you're waiting on and recent people and projects" width="30%">
